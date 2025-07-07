@@ -7,13 +7,16 @@
 
 
 .login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ce0606;
   color: white;
   width: 50px;
   height: 30px;
   border: none;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
   border-radius: 5px;
 }
 
@@ -22,6 +25,9 @@
 }
 
 .lang-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f0f0f0;
   color: #333;
   border: 1px solid #ccc;
